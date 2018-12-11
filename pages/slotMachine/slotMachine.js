@@ -7,10 +7,10 @@ Page({
 
     onLoad () {
         this.slotMachine = new SlotMachine(this, {
-            height: 40, // 单个数字高度
+            height: 70, // 单个数字高度
             len: 10,
             transY1: 0,
-            num1: 3,
+            num1: 0,
             transY2: 0,
             num2: 0,
             transY3: 0,
@@ -24,7 +24,7 @@ Page({
                     content: '恭喜您，中奖了',
                     showCancel: false,
                     success: res => {
-                        this.slotMachine.reset()
+                       // this.slotMachine.reset()
                         if (res.confirm) {
                             console.log('用户点击确定')
                         } else if (res.cancel) {

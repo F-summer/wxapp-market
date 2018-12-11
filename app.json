@@ -1,9 +1,10 @@
 {
   "pages":[
+    "pages/slotMachine/slotMachine",
     "pages/index/index",
     "pages/wheel/wheel",
     "pages/scratch/scratch",
-    "pages/slotMachine/slotMachine",
+   
     "pages/fruitMachine/fruitMachine",
     "pages/gridcard/gridcard",
     "pages/shake/shake",

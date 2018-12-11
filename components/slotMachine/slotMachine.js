@@ -64,7 +64,7 @@ class Machine {
         this.isStart = true
         const totalHeight = height * len
         const sRange = Math.floor(Math.random() * 2 + 2)
-        const halfSpeed = speed / 2
+        const halfSpeed = speed 
         const endDis1 = num1 == 0 ? 10 * height : num1 * height
         const endDis2 = num2 == 0 ? 10 * height : num2 * height
         const endDis3 = num3 == 0 ? 10 * height : num3 * height
